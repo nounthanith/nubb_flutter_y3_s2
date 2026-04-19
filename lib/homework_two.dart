@@ -39,6 +39,9 @@ class HomeworkTwo extends StatelessWidget {
               data("Play Game", "11/Jan/2022"),
               data("Play Game", "11/Jan/2022"),
               data("Play Game", "11/Jan/2022"),
+              data("Play Game", "11/Jan/2022"),
+              data("Play Game", "11/Jan/2022"),
+              data("Play Game", "11/Jan/2022"),
             ],
           ),
         ),
@@ -51,9 +54,9 @@ class HomeworkTwo extends StatelessWidget {
       children: [
         SizedBox(height: 8),
         Container(
-          padding: EdgeInsets.all(20),
+          padding: EdgeInsets.all(10),
           decoration: BoxDecoration(
-            color: Colors.red.shade100,
+            color: Colors.blueGrey.shade100,
             borderRadius: BorderRadius.circular(12),
           ),
           child: Row(
@@ -72,7 +75,7 @@ class HomeworkTwo extends StatelessWidget {
               ),
               Checkbox(
                 value: false,
-                onChanged: (bool? value) {},
+                onChanged: (bool? haha) {},
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(4.0),
                 ),
