@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_app/calculator_view.dart';
 import 'package:new_app/home_view.dart';
 import 'package:new_app/homework_two.dart';
 import 'package:new_app/row_column.dart';
@@ -13,6 +14,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeworkTwo());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: CalculatorView());
   }
 }

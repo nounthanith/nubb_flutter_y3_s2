@@ -1,6 +1,12 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 
 class HomeworkTwo extends StatelessWidget {
+  bool isCheck = false;
+
+  HomeworkTwo({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -74,8 +80,10 @@ class HomeworkTwo extends StatelessWidget {
                 ],
               ),
               Checkbox(
-                value: false,
-                onChanged: (bool? haha) {},
+                value: isCheck,
+                onChanged: (bool? value) {
+                  isCheck = value ?? true;
+                },
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(4.0),
                 ),
